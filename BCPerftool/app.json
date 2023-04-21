@@ -1,28 +1,33 @@
-{
-  "id": "b74a9a1d-6ab8-4ab6-b349-392bfd90e6a7",
-  "name": "BCPerftool",
-  "publisher": "waldo",
-  "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
-  "dependencies": [],
-  "screenshots": [],
-  "platform": "1.0.0.0",
-  "application": "19.0.0.0",
-  "idRanges": [
-    {
-      "from": 50000,
-      "to": 50999
-    }
-  ],
-  "resourceExposurePolicy": {
-    "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+﻿{
+    "id": "b52c1c11-0820-4457-9835-05a613a9fb80",
+    "name": "BCPerfTool",
+    "publisher": "waldo",
+    "version": "1.0.0.0",
+    "brief": "A tool to make it easier to get performance-related statistics",
+    "description": "A tool to make it easier to get performance-related statistics",
+    "privacyStatement": "https://www.waldo.be",
+    "EULA": "https://www.waldo.be",
+    "help": "https://www.waldo.be",
+    "url": "https://www.waldo.be",
+    "contextSensitiveHelpUrl": "https://www.waldo.be",
+    "logo": "img/icon.png",
+    "dependencies": [],
+    "screenshots": [],
+    "platform": "1.0.0.0",
+    "application": "19.0.0.0",
+    "idRanges": [
+        {
+            "from": 62100,
+            "to": 62200
+        }
+    ],
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": true,
+        "includeSourceInSymbolFile": true
+    },
+    "features": [
+        "TranslationFile"
+    ],
+    "runtime": "11.0"
 }
