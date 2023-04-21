@@ -1,1 +1,0 @@
-Get-BcContainerEventLog -containerName bccurrent
